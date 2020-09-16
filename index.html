@@ -12,11 +12,11 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="The Healthy Care site provide tips and tutorial on how to take care of your body" />
 <meta property="og:description" content="The Healthy Care site provide tips and tutorial on how to take care of your body" />
-<link rel="canonical" href="" />
-<meta property="og:url" content="" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="A Website With Tips &amp; Products To Take Care Of Your Body Better" />
 <script type="application/ld+json">
-{"@type":"WebSite","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"assets/images/Healthy-care-banner-logo.svg"}},"url":"","name":"A Website With Tips &amp; Products To Take Care Of Your Body Better","headline":"A Website With Tips &amp; Products To Take Care Of Your Body Better","description":"The Healthy Care site provide tips and tutorial on how to take care of your body","@context":"https://schema.org"}</script>
+{"@type":"WebSite","url":"http://localhost:4000/","headline":"A Website With Tips &amp; Products To Take Care Of Your Body Better","name":"A Website With Tips &amp; Products To Take Care Of Your Body Better","description":"The Healthy Care site provide tips and tutorial on how to take care of your body","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/Healthy-care-banner-logo.svg"}},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -78,19 +78,27 @@
     <div class="main-content">
         <!-- Home Jumbotron       ============================ -->    
 <section class="intro full-width">
-    <img class="featured-image2" src="/assets/images/nutrition-banner-04.png" alt="A Website With Tips & Products To Take Care Of Your Body Better">
+ 
+    
     <div class="wrapintro">
         <h2>A WHOLE NEW LOOK</h2>
         <h1 class="lead">BEAUTY PRONOUNCED</h1> 
         <h3>Start getting results you deserve!</h3>  
     </div>
 </section>
-<section class="featured-posts">
-    <div class="container">
-        <div class="row">
-          <div class="col"> 
 
-            
+
+
+<section class="featured-posts ">
+  
+  <div class="container ">
+    
+    <div class="row ">
+       
+      <div class=" col-sm ">
+        
+        
+        
 
 
 <div class="carousel__holder">
@@ -106,15 +114,13 @@
         
           <input class="carousel__activator" type="radio" name="carousel" id="e"  />
         
-          <input class="carousel__activator" type="radio" name="carousel" id="f"  />
-        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="f"></label>
+              <label class="carousel__control carousel__control--backward" for="e"></label>
               <label class="carousel__control carousel__control--forward" for="b"></label>
           </div>
         
@@ -151,32 +157,21 @@
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="d"></label>
-              <label class="carousel__control carousel__control--forward" for="f"></label>
-          </div>
-        
-          
-          
-          
-          
-          <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="e"></label>
               <label class="carousel__control carousel__control--forward" for="a"></label>
           </div>
         
         <div class="carousel__track">
           <ul>
             
-            <li class="carousel__slide" style="background-image: url('/assets/images/slider/1-beautiful-woman.jpg');"></li>
+            <li class="carousel__slide" style="background-image: url('/assets/images/SL-beautiful-makeup-960.jpg');"></li>
             
-            <li class="carousel__slide" style="background-image: url('/assets/images/slider/2-Healthy-eating.jpg');"></li>
+            <li class="carousel__slide" style="background-image: url('/assets/images/SL-breast-enhancement-960.jpg');"></li>
             
-            <li class="carousel__slide" style="background-image: url('/assets/images/slider/3-breast-enhance.jpg');"></li>
+            <li class="carousel__slide" style="background-image: url('/assets/images/SL-eating-right-960.jpg');"></li>
             
-            <li class="carousel__slide" style="background-image: url('/assets/images/slider/4-beautiful-woman.jpg');"></li>
+            <li class="carousel__slide" style="background-image: url('/assets/images/SL-woman-taking-care-body-960.jpg');"></li>
             
-            <li class="carousel__slide" style="background-image: url('/assets/images/slider/5-exercising.jpg');"></li>
-            
-            <li class="carousel__slide" style="background-image: url('/assets/images/slider/6-beauty-makeup.jpg');"></li>
+            <li class="carousel__slide" style="background-image: url('/assets/images/SL-makeup-home-960.jpg');"></li>
             
           </ul>
         </div>
@@ -191,8 +186,6 @@
               <label class="carousel__indicator" for="d"></label>
             
               <label class="carousel__indicator" for="e"></label>
-            
-              <label class="carousel__indicator" for="f"></label>
             
         </div>
     </div>
@@ -328,29 +321,6 @@
   opacity: 1;
 }
 
-.carousel__activator:nth-of-type(6):checked ~ .carousel__track {
-  -webkit-transform: translateX(-500%);
-          transform: translateX(-500%);
-}
-.carousel__activator:nth-of-type(6):checked ~ .carousel__slide:nth-of-type(6) {
-  transition: opacity 0.5s, -webkit-transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
-  top: 0;
-  left: 0;
-  right: 0;
-  opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-.carousel__activator:nth-of-type(6):checked ~ .carousel__controls:nth-of-type(6) {
-  display: block;
-  opacity: 1;
-}
-.carousel__activator:nth-of-type(6):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(6) {
-  opacity: 1;
-}
-
 
 .carousel__control {
   height: 30px;
@@ -445,11 +415,6 @@
           transform: translateX(400%);
 }
 
-.carousel__track .carousel__slide:nth-of-type(6) {
-  -webkit-transform: translateX(500%);
-          transform: translateX(500%);
-}
-
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -500,12 +465,6 @@
   background-position: center;
 }
 
-.carousel__slide:nth-of-type(6),
-.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(6) {
-  background-size: cover;
-  background-position: center;
-}
-
 </style>
 
 <script>
@@ -546,77 +505,144 @@
   },4000);
   
 </script>
+         </div>
+        
+ 
+<div class="col-sm  ">
+ 
+  <h4> Affordable, gorgeous and beauty which you deserve.</h4>
+  <p> We all want to have a perfect body/skin and look beautiful, however in this world almost every week new products hit the market, and it is not always easy to find the right tips & skincare or makeup product that works for you.
+    Here you find the best tips and products to bring wellness into your lifestyle.</p>
     </div>
-    <div class="col">
-
-        <h3>Affordable, gorgeous and beauty which you deserve.</h3>
-       <p> We all want to have a perfect body/skin and look beautiful, however in this world almost every week new products hit the market, and it is not always easy to find the right tips & skincare or makeup product that works for you.
-        Here you find the best tips and products to bring wellness into your lifestyle.</p>
-    </div>
-</div>
+    
+  </div>
+  </div> 
+                     
 </section>
+
+
+
+
+
+
+
+
+
+
      <div class="container">
       <div class="row">
-        <div class="col"> 
+        <div class="col-sm"> 
         <figure>
-          <a rel="noopener noreferrer nofollow" target="_blank" href="https://bit.ly/3evrBnl"><img src="/assets/images/woman-hair-care-4.jpg" alt="growing hair secrets" title="Grow Your Hair Long"/></a>
-        <i class="fa fa-shopping-cart"></i>
-        <h6 class="title is-5">Hair Care Tips & Products</h6>
+          <a rel="noopener noreferrer nofollow" target="_blank" href="https://bit.ly/3evrBnl">
+
+<img src="/assets/images/5-woman-hair-care-400.jpg" alt="growing hair secrets" srcset=" /
+
+assets/images/5-woman-hair-care-400.jpg 400w">   
+        <i class="fa fa-shopping-cart"></i></a>
+        <h6 class="title is-5"><br />Hair Care Tips & Products</h6>
         <p>Hair Care Products That Can Help You Keep Your Hair Strong & Grow.</p>
       </figure></div>  
-        <div class="col">
+
+        <div class="col-sm">
         <figure>
-          <a rel="noopener noreferrer nofollow" target="_blank" href="http://www.lnk123.com/SH14o1"> <img src="/assets/images/fitness-girl-2.jpg" alt="losing weight with Garcinia Cabogia" title="Losing weight with Garcinia Cabogia" /></a>
-        <i class="fa fa-shopping-cart"></i>
-        <h6 class="title is-5">Weight Loss Tips & Products</h6>
+          <a rel="noopener noreferrer nofollow" target="_blank" href="http://www.lnk123.com/SH14o1">
+
+<img src="/assets/images/5-fitness-girl-400.jpg" alt="losing weight with Garcinia Cambogia" srcset=" /
+
+assets/images/5-fitness-girl-400.jpg 400w">
+        <i class="fa fa-shopping-cart"></i></a>
+        <h6 class="title is-5"><br />Weight Loss Tips & Products</h6>
         <p>Top Working Weight Loss Products To Help You Get Into Your Ideal Body Weight.</p>
       </figure>  </div>  
-        <div class="col">
+
+     
+        <div class="col-sm">
         <figure> 
-          <a rel="noopener noreferrer nofollow" target="_blank" href="https://shrsl.com/2hc9y"> <img src="/assets/images/fitness-nutrition-2.jpg" alt="Veggie Vite Multi-Vitamin Complex" title="Veggie Multi Vitamin Complex"  /></a>
+          <a rel="noopener noreferrer nofollow" target="_blank" href="https://shrsl.com/2hc9y">
+
+<img src="/assets/images/5-fitness-nutrition-400.jpg" alt="Veggie Vite Multi-Vitamin Complex" srcset=" /
+
+assets/images/5-fitness-nutrition-400.jpg 400w">
+           
        
-        <i class="fa fa-shopping-cart"></i>
-         <h6 class="title is-5">Nutrition & Vitamin Products</h6>
+        <i class="fa fa-shopping-cart"></i> </a>
+         <h6 class="title is-5"><br />Nutrition & Vitamin Products</h6>
          <p>Healthy Nutrition And Vitamin Products On The Market Today.</p>
       </figure> </div>  
-        <div class="col">
+
+     
+        <div class="col-sm">
         <figure>
-          <a rel="noopener noreferrer nofollow" target="_blank"  href="https://shrsl.com/2hhm8"><img src="/assets/images/beautiful-makeup-3.jpg" alt="Makeup Startup Kits" title="Makeup Startup Kits" /></a>
-        <i class="fa fa-shopping-cart"></i>
-      <h6 class="title is-5">Makeup Tips & Products</h6>
+          <a rel="noopener noreferrer nofollow" target="_blank"  href="https://shrsl.com/2hhm8">
+
+<img src="/assets/images/5-beautiful-makeup-400.jpg" alt="Makeup Startup Kits" srcset=" /
+
+assets/images/5-beautiful-makeup-400.jpg 400w">
+        <i class="fa fa-shopping-cart"></i></a>
+      <h6 class="title is-5"><br />Makeup Tips & Products</h6>
       <p>Top Of The Market Makeup Products And Accessories</p>
       </figure> </div>  
-        <div class="col">
+
+      
+        <div class="col-sm">
         <figure>
-          <a rel="noopener noreferrer nofollow" target="_blank" href="https://shrsl.com/2hc4h"><img src="/assets/images/woman-problem-solving.jpg" alt="Colon Cleansing" title="Colon Cleanse" /></a>
-        <i class="fa fa-shopping-cart"></i>
-      <h6 class="title is-5">Problem-Solving Tips & products</h6>
+          <a rel="noopener noreferrer nofollow" target="_blank" href="https://shrsl.com/2hc4h">
+
+<img src="/assets/images/5-woman-problem-solving-400.jpg" alt="Colon Cleansing" srcset=" /
+
+assets/images/5-woman-problem-solving-400.jpg 400w">
+           
+        <i class="fa fa-shopping-cart"></i></a>
+      <h6 class="title is-5"><br />Problem-Solving Tips & products</h6>
       <p>Products To Help You Solve Body Problems Including clone cleansing, Skin Wrinkle, Acne, etc...</p>
       </figure> </div>  
       </div>
+
+
+
+
+
+
       <div class="container">
         <div class="row">
-          <div class="col"> 
+          <div class="col-sm"> 
             <figure>
-              <img src="/assets/images/woman-makeup-tips.jpg"><br />
-                <h6 class="title is-5">Makeup Tips</h6>
+          
+              
+
+<img src="/assets/images/3-woman-makeup-640.jpg" alt="makeup tips" srcset="    /assets/resized/400/3-woman-makeup-640.jpg 400w, /
+
+assets/images/3-woman-makeup-640.jpg 640w"><br />
+                <h6 class="title is-5"><br />Makeup Tips</h6>
                 <p>Learn how to take care of your face, and how to makeup...</p>
-                <a class="btn btn-primary btn-lg" href="/category/face-makeup-and-face-care/" >Read More...</a>
+                <a rel="noopener noreferrer nofollow" target="_blank"  class="btn btn-primary btn-lg" href="/category/face-makeup-and-face-care/" >Read More...</a>
             </figure> 
              </div>
-            <div class="col"> 
+
+             
+            <div class="col-sm"> 
                 <figure>
-                    <img src="/assets/images/eating-healthy-food.jpg"><br />
-                    <h6 class="title is-5">Body Care Tips</h6>
+                  
+
+<img src="/assets/images/3-eating-right-nutrition-640.jpg" alt="eating right nutrition" srcset="    /assets/resized/400/3-eating-right-nutrition-640.jpg 400w, /
+
+assets/images/3-eating-right-nutrition-640.jpg 640w"><br />
+                    <h6 class="title is-5"><br />Body Care Tips</h6>
                     <p>Learn how to take care of your body or how to enhance your breast...</p>
-                    <a class="btn btn-primary btn-lg" href="/category/body-care-and-anti-aging/" >Read More...</a>
+                    <a rel="noopener noreferrer nofollow" target="_blank"  class="btn btn-primary btn-lg" href="/category/body-care-and-anti-aging/" >Read More...</a>
                 </figure> </div>
-                <div class="col"> 
+
+                
+                <div class="col-sm"> 
                     <figure>
-                        <img src="/assets/images/woman-hair-care-768-512.jpg"><br />
-                        <h6 class="title is-5">Hair Care Tips</h6>
+                      
+
+<img src="/assets/images/3-woman-hair-care-640.jpg" alt="how to take care of your hair" srcset="    /assets/resized/400/3-woman-hair-care-640.jpg 400w, /
+
+assets/images/3-woman-hair-care-640.jpg 640w"><br />
+                        <h6 class="title is-5"><br />Hair Care Tips</h6>
                         <p>Learn how to take care of your hair and grow stronger hair...</p>
-                        <a class="btn btn-primary btn-lg" href="/category/hair-care-and-hair-design/" >Read More...</a>
+                        <a rel="noopener noreferrer nofollow" target="_blank"  class="btn btn-primary btn-lg" href="/category/hair-care-and-hair-design/" >Read More...</a>
                     </figure> </div></div></div>
 
             
