@@ -4,6 +4,9 @@ Copyright:WowThemes.net,https://www.wowthemes.net
 Version:1.0.2
 License: https://www.wowthemes.net/freebies-license/
 */
+---
+layout: stylesheet
+---
 body {
     font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     overflow-x: hidden;
@@ -325,7 +328,6 @@ section.recent-posts {
         margin-bottom:1rem;
     }
 
-
     .intro {
         background-image: url('../images/natural-skin-care-product-640.jpg');
         background-size:cover;
@@ -356,8 +358,6 @@ section.recent-posts {
     position: relative;
     } 
 }
-
-
 @media only screen and (min-width: 1025px){
     .intro {
         background-image: url('../images/natural-skin-care-product-1366.jpg');
@@ -369,7 +369,6 @@ section.recent-posts {
     } 
 }
     
-
 @media only screen and (min-width: 1280px){
     .intro {
         background-image: url('../images/natural-skin-care-product-1280.jpg');
@@ -380,8 +379,7 @@ section.recent-posts {
         position: relative;
     } 
 }
-    
-    
+       
 @media only screen and (min-width: 1367px){
     .intro {
         background-image:  url('../images/natural-skin-care-product-1600.jpg');
@@ -443,7 +441,6 @@ section.recent-posts {
         text-shadow: 2px 2px #0a0a0a;
 }
 
-
     .intro h2 {
         font-size:1.4rem;
         margin-top: 2rem;
@@ -459,8 +456,6 @@ section.recent-posts {
         text-shadow: 1px 1px #191b19;
 }
 
-
-
 @media (max-width: 443px) {
     .intro h1 {
         font-size:1.4rem;
@@ -474,7 +469,6 @@ section.recent-posts {
         font-weight:500;
         text-align: center;
     }
-        
 
     .intro h3 {
         font-size:1.0rem;
@@ -492,7 +486,6 @@ section.recent-posts {
             box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
         }
 
-    
     .footer {
         border-top:1px solid rgba(0,0,0,.05)!important;
         color:#999;
